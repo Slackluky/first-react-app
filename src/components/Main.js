@@ -12,7 +12,7 @@ import About from './About'
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path='/game' component={Game}/>
+      <Route exact path='/' component={Game}/>
       <Route path='/content' component={Content}/>
       <Route path='/about' component={About}/>
     </Switch>
