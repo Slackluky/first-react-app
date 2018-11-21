@@ -231,7 +231,7 @@ class NavBar extends React.Component{
         <Toolbar  >
           <Typography variant="h5" color="secondary" align="left" className={classes.title}>
           
-          <Link to="/game" style={{ textDecoration: 'none' }}>
+          <Link to="/" style={{ textDecoration: 'none' }}>
           OFERVLOW
           </Link>
           
@@ -266,7 +266,7 @@ class NavBar extends React.Component{
               </IconButton>
                 
                 
-                <Link to='/game'>
+                <Link to='/'>
                 <IconButton component={Link} to='/about'>
                   <Person />
                 </IconButton>
@@ -295,7 +295,7 @@ class NavBar extends React.Component{
             textColor="secondary"
           >
           
-            <Tab icon={ <Home className={classes.icon}  /> }  component={Link} to="/game"/>
+            <Tab icon={ <Home className={classes.icon}  /> }  component={Link} to="/"/>
 
             <Tab icon={<Whatshot className={classes.icon}/>} component={Link} to="/content" />
 
