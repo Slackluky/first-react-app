@@ -1,0 +1,2 @@
+[2018-11-18 18:37:54.040] [renderer1] [info] no standard startup: not running latest version
+[2018-11-18 19:00:19.527] [renderer1] [error] Inotify limit reached (ENOSPC)

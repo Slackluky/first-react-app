@@ -464,12 +464,14 @@
             "isNative": true
         }
     },
-    "pickerWorkingDir": "/home/luzion/Documents",
+    "pickerWorkingDir": "/home/luzion/Documents/first-react-app-master/src",
     "openedPathsList": {
         "workspaces2": [
             "file:///home/luzion/Documents/stat-web"
         ],
-        "files2": []
+        "files2": [
+            "file:///home/luzion/Documents/first-react-app-master/src/App.js"
+        ]
     },
     "windowsState": {
         "openedWindows": [],
